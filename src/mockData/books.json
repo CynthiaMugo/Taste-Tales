@@ -1,0 +1,32 @@
+[
+  {
+    "id": "b1",
+    "title": "The Midnight Library",
+    "image": "src/assets/alicia-christin-gerald-Sx-_-WRm1WY-unsplash.jpg",
+    "author": "Matt Haig",
+    "thoughts": "Made me reflect on choices and quiet regrets. Slow but meaningful.",
+    "rating": 4,
+    "mood": "reflective",
+    "date": "2025-12-18"
+  },
+  {
+    "id": "b2",
+    "title": "It Ends With Us",
+    "image": "src/assets/annie-spratt-Tnpd6TB6uN0-unsplash.jpg",
+    "author": "Colleen Hoover",
+    "thoughts": "Emotionally heavy. Appreciated the honesty but needed breaks while reading.",
+    "rating": 4,
+    "mood": "emotional",
+    "date": "2026-01-10"
+  },
+  {
+    "id": "b3",
+    "title": "Before the Coffee Gets Cold",
+    "image": "src/assets/tony-chen-0Pg_C0izb84-unsplash.jpg",
+    "author": "Toshikazu Kawaguchi",
+    "thoughts": "Short, gentle, and quietly emotional. Loved the concept.",
+    "rating": 5,
+    "mood": "cozy",
+    "date": "2026-01-30"
+  }
+]

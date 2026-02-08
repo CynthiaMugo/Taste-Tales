@@ -1,0 +1,35 @@
+[
+  {
+    "id": "s1",
+    "title": "Hidden Love",
+    "image": "src/assets/ravi-sharma-XtCYt6EOwwE-unsplash.jpg",
+    "platform": "Netflix",
+    "episodes": 25,
+    "thoughts": "Soft, comforting, and emotionally safe. Loved the slow burn.",
+    "rating": 5,
+    "mood": "cozy",
+    "date": "2025-11-22"
+  },
+  {
+    "id": "s2",
+    "title": "My Liberation Notes",
+    "image": "src/assets/clement-ozwuhSnFaiM-unsplash.jpg",
+    "platform": "Netflix",
+    "episodes": 16,
+    "thoughts": "Quiet and deeply introspective. Not flashy but very grounding.",
+    "rating": 5,
+    "mood": "introspective",
+    "date": "2025-12-05"
+  },
+  {
+    "id": "s3",
+    "title": "Business Proposal",
+    "image": "src/assets/terry-tran-tySuwqz8xkU-unsplash.jpg",
+    "platform": "Netflix",
+    "episodes": 12,
+    "thoughts": "Fun, light, and perfect when I wanted something easy.",
+    "rating": 4,
+    "mood": "light",
+    "date": "2026-01-15"
+  }
+]

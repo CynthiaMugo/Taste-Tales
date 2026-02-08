@@ -1,0 +1,32 @@
+[
+  {
+    "id": "c1",
+    "title": "Garlic Butter Chicken",
+    "image": "src/assets/05dbafde-b769-43ad-909e-a3ab5f6dd7ea.jpg",
+    "timeSpent": 40,
+    "ingredients": ["chicken", "garlic", "butter", "paprika"],
+    "notes": "Very flavorful but slightly salty. Reduce butter next time.",
+    "rating": 4,
+    "date": "2026-01-28"
+  },
+  {
+    "id": "c2",
+    "title": "Creamy Mushroom Pasta",
+    "image": "src/assets/pasta-spaghetti-with-shrimps-tomato-sauce-served-plate-dark-surface-closeup.jpg",
+    "timeSpent": 30,
+    "ingredients": ["pasta", "mushrooms", "cream", "parmesan"],
+    "notes": "Comfort food. Could add spinach for balance.",
+    "rating": 5,
+    "date": "2026-02-02"
+  },
+  {
+    "id": "c3",
+    "title": "Honey Soy Stir Fry",
+    "image": "https://images.unsplash.com/photo-1601312377690-b7ff8edc94f1?fit=crop&w=300&h=300",
+    "timeSpent": 25,
+    "ingredients": ["soy sauce", "honey", "vegetables", "ginger"],
+    "notes": "Quick and easy. Worked well for a busy evening.",
+    "rating": 4,
+    "date": "2026-02-05"
+  }
+]
