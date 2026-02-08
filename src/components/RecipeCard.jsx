@@ -15,6 +15,13 @@ function RecipeCard({ recipe, onEdit, onDelete }) {
         <h3 className="font-semibold text-lg text-[#7A3E24]">
           {recipe.title}
         </h3>
+        <h3 className="font-semibold text-lg text-[#7A3E24]">
+          Ingredients:
+        </h3>
+        <p className="text-sm text-stone-700 line-clamp-3">
+          {recipe.ingredients}
+        </p>
+
 
         <div className="flex items-center gap-4 text-sm text-stone-600">
           <span className="flex items-center gap-1">

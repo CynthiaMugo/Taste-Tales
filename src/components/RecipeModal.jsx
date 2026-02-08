@@ -32,8 +32,13 @@ function RecipeModal({ isOpen, onClose, onSave, formData, onChange, isEditing,})
             }}
             className="w-full mb-3 p-2 border rounded"
         />
-
-
+        <input
+          name="ingredients"
+          placeholder="Ingredients"
+          value={formData.ingredients}
+          onChange={onChange}
+          className="w-full mb-3 p-2 border rounded"
+        />
         <input
           name="timeSpent"
           placeholder="Time spent (mins)"
