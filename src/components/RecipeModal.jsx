@@ -16,22 +16,21 @@ function RecipeModal({ isOpen, onClose, onSave, formData, onChange, isEditing,})
           className="w-full mb-3 p-2 border rounded"
         />
         <input
-            type="file"
-            accept="image/*"
-            onChange={(e) => {
-                const file = e.target.files[0];
-                if (!file) return;
-
-                const reader = new FileReader();
-                reader.onloadend = () => {
-                onChange({
-                    target: { name: "image", value: reader.result },
-                });
-                };
-                reader.readAsDataURL(file);
-            }}
+            name="image"
+            placeholder="Image URL"
+            value={formData.image || ""}
+            onChange={onChange}
             className="w-full mb-3 p-2 border rounded"
-        />
+            />
+
+
+        {formData.image && (
+          <img
+            src={formData.image}
+            alt="Preview"
+            className="w-full h-40 object-cover rounded-lg mb-3"
+          />
+        )}
         <input
           name="ingredients"
           placeholder="Ingredients"

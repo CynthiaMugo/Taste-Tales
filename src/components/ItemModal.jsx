@@ -26,22 +26,15 @@ function ItemModal({ isOpen, onClose, onSave, formData, onChange, isEditing }) {
           className="w-full mb-3 p-2 border rounded"
         />
 
-        {/* Image Upload */}
         <input
-          type="file"
-          accept="image/*"
-          onChange={(e) => {
-            const file = e.target.files[0];
-            if (!file) return;
-            const reader = new FileReader();
-            reader.onloadend = () =>
-              onChange({ target: { name: "image", value: reader.result } });
-            reader.readAsDataURL(file);
-          }}
-          className="w-full mb-3 p-2 border rounded"
-        />
+            name="image"
+            placeholder="Image URL"
+            value={formData.image || ""}
+            onChange={onChange}
+            className="w-full mb-3 p-2 border rounded"
+            />
 
-        {/* Preview */}
+
         {formData.image && (
           <img
             src={formData.image}
@@ -87,10 +80,10 @@ function ItemModal({ isOpen, onClose, onSave, formData, onChange, isEditing }) {
         />
 
         {/* Date */}
-        <input
+        <input type ="date"
           name="date"
           placeholder="Date (YYYY-MM-DD)"
-          value={formData.date || ""}
+          value={formData.date}
           onChange={onChange}
           className="w-full mb-3 p-2 border rounded"
         />
