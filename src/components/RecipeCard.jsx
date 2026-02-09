@@ -19,8 +19,11 @@ function RecipeCard({ recipe, onEdit, onDelete }) {
           Ingredients:
         </h3>
         <p className="text-sm text-stone-700 line-clamp-3">
-          {recipe.ingredients}
+            {Array.isArray(recipe.ingredients)
+                ? recipe.ingredients.join(", ")
+                : recipe.ingredients}
         </p>
+
 
 
         <div className="flex items-center gap-4 text-sm text-stone-600">
